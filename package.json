@@ -1,0 +1,36 @@
+{
+  "name": "webpack-project-scaffold",
+  "version": "0.0.1",
+  "description": "Webpack project scaffold",
+  "license": "",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --config ./webpack.config.js --mode development --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.1.0",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "bourbon": "^5.0.0",
+    "bourbon-neat": "^2.1.0",
+    "jquery": "^3.3.1",
+    "modaal": "^0.3.1",
+    "normalize.css": "^8.0.0",
+    "scrollreveal": "^3.4.0"
+  }
+}
